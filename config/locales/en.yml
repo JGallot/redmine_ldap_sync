@@ -46,7 +46,7 @@ en:
   field_users_search_scope: "Users search scope"
   field_class_group: "Groups objectclass"
   field_account_locked_test: "Account disabled test"
-
+  field_account_locked_test_helptext: "This setting is no more used : test is hardcoded"
   field_groupname_pattern: "Group name pattern"
   field_group_search_filter: "Group search filter"
 

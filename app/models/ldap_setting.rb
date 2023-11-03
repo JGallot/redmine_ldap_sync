@@ -143,7 +143,9 @@ class LdapSetting
   # Returns the evaluated proc of the account disabled test
   def account_locked_proc
     @account_locked_proc ||= if has_account_locked_test?
-      eval("lambda { |flags| #{account_locked_test} }")
+       # Harcoded test (bad but more secure)
+       account_locked_test="flags.to_i & 2 != 0 ;"
+       eval("lambda { |flags| #{account_locked_test} }")
     end
   end
 

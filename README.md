@@ -4,6 +4,14 @@ Redmine LDAP Sync [![Build Status](https://travis-ci.org/thorin/redmine_ldap_syn
 This redmine plugin extends the ldap authentication with user/group
 synchronization.
 
+=================
+WARNINGS (3 november 2023): 
+- Tested only on redmine 5.0.X with active directory
+- Test of deactivated account is no more in redmine settings, it's hard coded more secure but less practical
+- User test through web interface doesn't work anymore
+- Groups synchronization not used and tested 
+=================
+
 __Features__:
 
  * Synchronization of user fields and groups on login.
@@ -33,7 +41,7 @@ Installation & Upgrade
    If you are downloading the plugin directly from GitHub, you can do so by
    changing into the `#{RAILS_ROOT}/plugins` directory and issuing the command:
    ```
-   git clone git://github.com/thorin/redmine_ldap_sync.git
+   git clone git://github.com/Jgallot/redmine_ldap_sync.git
    ```
 
    **upgrade** - Backup and replace the old plugin directory with the new

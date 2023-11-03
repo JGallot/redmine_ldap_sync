@@ -10,7 +10,7 @@
   label_result: "Résultat"
   label_minutes: "minutes"
 
-  label_not_executed: "Non executé"
+  label_not_executed: "Non exécuté"
   label_no_fields: "Pas de champ"
   label_not_found: "Pas trouvé"
   label_users_enabled: "Utilisateurs activés"
@@ -24,7 +24,7 @@
   label_log_messages: "Messages de log"
 
   button_test: "Test"
-  button_execute: "Executer"
+  button_execute: "Exécuter"
   button_enable: "Activer"
   button_disable: "Désactiver"
 
@@ -45,8 +45,8 @@
   field_class_user: "Utilisateurs objectclass"
   field_users_search_scope: "Profondeur de la recherche des utilisateurs"
   field_class_group: "Groupes objectclass"
-  field_account_locked_test: "Compte désactivé test"
-
+  field_account_locked_test: "Test pour évaluer Compte désactivé"
+  field_account_locked_test_helptext: "Ce paramètre n'est plus utilisé : Le test est à modifier dans le code"
   field_groupname_pattern: "Modèle de nom de groupe"
   field_group_search_filter: "Filtre de recherche de groupes"
 
